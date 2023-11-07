@@ -633,5 +633,83 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-open">
+      <div class="modern">
+        <button type="button" class="close-button">
+          <svg
+            class="close-button-svg"
+            width="8"
+            height="8"
+            aria-label="close button"
+          >
+            <use href="./images/icons.svg#icon-Vector-3"></use>
+          </svg>
+        </button>
+
+        <p class="modern-text">Leave your contacts and we will call you back</p>
+        <form class="information">
+          <div class="information-name">
+            <label class="information-name-label" for="name-input">Name </label>
+            <input
+              class="information-name-input"
+              type="text"
+              id="name-input"
+              name="information_name"
+              required
+              pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐйЙʼ]+"
+            />
+          </div>
+          <div class="information-mobile">
+            <label class="information-mobile-label" for="mobile-input"
+              >Phone
+            </label>
+            <input
+              class="information-mobile-input"
+              type="tel"
+              id="mobile-input"
+              required
+              name="information_mobile"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+              title="xxx-xxx-xx-xx"
+            />
+          </div>
+          <div clas="information-mail">
+            <label class="information-mail-label" for="mail-input">
+              Email</label
+            >
+            <input
+              class="information-mail-input"
+              type="email"
+              required
+              name="information_mail"
+            />
+          </div>
+          <div class="information-text">
+            <label class="inaformation-text-label">Comment </label>
+            <textarea
+              class="inaformation-text-textarea"
+              placeholder="Text input"
+              required
+              name="naformation-text"
+            ></textarea>
+          </div>
+          <div class="agreement">
+            <input
+              class="agreement-checkbox"
+              type="checkbox"
+              id="agreement-checkbox"
+              name="agreement_checkbox"
+              value="true"
+              required
+            />
+            <label class="agreement-label" for="agreement-checkbox"
+              >I accept the terms and conditions of the
+              <a class="agreement-label-link" href="">Privacy Policy</a></label
+            >
+          </div>
+          <button class="submit-button" type="submit"></button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>

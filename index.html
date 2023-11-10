@@ -60,7 +60,7 @@
       <!--Company benefits-->
       <section class="tre">
         <div class="container">
-          <h2 class="Company-benefits">Company benefits</h2>
+          <h2 class="visually-hidden">Company benefits</h2>
           <ul class="benefits-list">
             <li class="benefits-list-name">
               <div class="benefits-images-list">
@@ -696,12 +696,14 @@
             </div>
           </div>
           <div class="information-name wraper">
-            <label class="information-name-label" for="user-name">Phone </label>
+            <label class="information-name-label" for="user-name-2"
+              >Phone
+            </label>
             <div class="information-name-wraper">
               <input
                 class="information-name-input"
                 type="tel"
-                id="user-name"
+                id="user-name-2"
                 required
                 name="user-name"
                 pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
@@ -718,14 +720,16 @@
             </div>
           </div>
           <div class="information-name wraper">
-            <label class="information-name-label" for="user-name"> Email</label>
+            <label class="information-name-label" for="user-name-1">
+              Email</label
+            >
             <div class="information-name-wraper">
               <input
                 class="information-name-input"
                 type="email"
                 required
                 name="user-name"
-                id="user-name"
+                id="user-name-1"
               />
               <svg
                 class="information-name-svg"
@@ -738,27 +742,27 @@
             </div>
           </div>
           <div class="information-text wraper">
-            <label class="inaformation-text-label" for="information-text"
+            <label class="information-name-label" for="user-comment"
               >Comment
             </label>
             <textarea
               class="inaformation-text-textarea"
               placeholder="Text input"
               required
-              name="information-text"
-              id="naformation-text"
+              name="user-comment"
+              id="user-comment"
             ></textarea>
           </div>
           <div class="agreement">
             <input
-              class="agreement-checkbox Company-benefits"
+              class="agreement-checkbox visually-hidden"
               type="checkbox"
-              id="agreement-checkbox"
-              name="agreement-checkbox"
+              id="user-privacy"
+              name="user-privacy"
               value="true"
               required
             />
-            <label class="agreement-label" for="agreement-checkbox">
+            <label class="agreement-label" for="user-privacy">
               <span class="agreement-folse-checkbox">
                 <svg
                   class="agreement-folse-checkbox-icon"

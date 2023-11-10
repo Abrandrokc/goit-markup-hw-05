@@ -345,6 +345,60 @@ align-items: baseline;
     gap: 16px;
     list-style: none;
 }
+.footer-send{
+    margin-left: 80px;
+    margin-bottom: 132px;
+}
+.footer-send-text{
+    margin-bottom: 16px;
+    width: 75px;
+     height: 0.32; 
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: white;
+}
+.footer-send-form {
+    display:flex;
+}
+.footer-send-input{
+    width: 264px;
+    height: 40px;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 4px;
+    padding-left: 16px;
+    font-family: Roboto;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.04em;
+        text-align: left;
+        background-color: #2E2F42;
+
+}
+.footer-send-button{
+margin-left: 24px;
+width: 165px;
+height: 0.24;
+background-color: #4D5AE5;
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 8px;
+        padding-top: 8px;
+}
+.footer-send-svg{
+    margin-left: 15px;
+}
 .backdrop{
     position: fixed;
     width: 100%;

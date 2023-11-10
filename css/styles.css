@@ -537,7 +537,9 @@ width: 100%;
            .information-name-input:focus + .information-name-svg {
             fill: #4D5AE5;
         }
-          .inaformation-text  {margin-bottom: 16px}
+ .information-text{
+    margin-bottom: 16px
+ }
 .inaformation-text-textarea {
     width: 100%;
     height: 120px;
@@ -561,7 +563,7 @@ outline: transparent;
     color: #2E2F4266;
 }
 .agreement {
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 .agreement-label{
     font-size: 12px;
